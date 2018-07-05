@@ -7,7 +7,7 @@ class Hero
     @name = args[:name]
     @weight = args[:weight]
     @height = args[:height]
-    PIRATES << self
+    HEROS << self
   end
 
   def self.all
