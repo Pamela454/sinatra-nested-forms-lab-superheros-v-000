@@ -9,7 +9,7 @@ class App < Sinatra::Base
     end
 
     post '/teams' do
-
+      binding.pry
       @team = Team.new(name: params[:team][:name], motto: params[:team][:motto])
       members = params[:team][:members]
      @@heros = members.collect do |h_params|
