@@ -11,6 +11,6 @@ class Hero
   end
 
   def self.all
-    PIRATES
+    HEROS
   end
 end
