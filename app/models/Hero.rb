@@ -6,7 +6,7 @@ class Hero
   def initialize(args)
     @name = args[:name]
     @power = args[:power]
-    @biography = args[:bio]
+    @bio = args[:bio]
     @@heros << self
   end
 
