@@ -12,7 +12,7 @@ class App < Sinatra::Base
       @team = Team.new(name: params[:team][:name], motto: params[:team][:motto])
       members = params[:team][:hero]
       binding.pry
-     @@heros = members.collect do |h_params|
+     @heros = members.collect do |h_params|
        Hero.new({name: h_params[:name], power: h_params[:power], bio: h_params[:bio]})
      end
       erb :team
