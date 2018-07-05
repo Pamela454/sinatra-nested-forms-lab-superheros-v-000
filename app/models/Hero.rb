@@ -5,7 +5,7 @@ class Hero
 
   def initialize(args)
     @name = args[:name]
-    @weight = args[:weight]
+    @weight = args[:power]
     @height = args[:height]
     HEROS << self
   end
