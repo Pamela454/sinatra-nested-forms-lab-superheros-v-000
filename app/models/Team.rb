@@ -5,7 +5,7 @@ class Team
 
   def initialize(args)
     @name = args[:name]
-    @weight = args[:weight]
+    @motto = args[:weight]
     PIRATES << self
   end
 
