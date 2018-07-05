@@ -9,7 +9,7 @@ class App < Sinatra::Base
     end
 
     post '/teams' do
-      @student = Student.new(params[:student])
+      @team = Student.new(params[:student])
 
       params[:student][:courses].each do |details|
         Course.new(details)
