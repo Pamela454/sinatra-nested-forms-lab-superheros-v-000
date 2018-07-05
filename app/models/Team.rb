@@ -11,6 +11,6 @@ class Team
   end
 
   def self.all
-    PIRATES
+    TEAM
   end
 end
