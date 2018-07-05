@@ -1,5 +1,5 @@
 class Team
-  attr_accessor :name, :weight, :height
+  attr_accessor :name, :motto
 
   PIRATES = []
 
